@@ -1,19 +1,20 @@
-import styles from './Header.module.css'
+import { Link } from "react-router-dom";
+import styles from "./Header.module.css";
 
-function Header(){
-  return(
+function Header() {
+  return (
     <header className={styles.header}>
-      <span>
-        gsilvasouza.dev
-      </span>
+      <Link to="/">
+        <span>gsilvasouza.dev</span>
+      </Link>
       <nav>
-        <a href=''>Home</a>
-        <a href=''>Sobre</a>
-        <a href=''>Projetos</a>
-        <a href=''>Contatos</a>
+        <Link to="/">Home</Link>
+        <Link to="/about">Sobre</Link>
+        <Link to="/projects">Projetos</Link>
+        <Link to="/contacts">Contatos</Link>
       </nav>
     </header>
-  )
+  );
 }
 
 export default Header;
