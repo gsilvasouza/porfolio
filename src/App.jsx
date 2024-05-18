@@ -22,6 +22,7 @@ function App() {
           src="/developer-red.svg" 
           alt="Imagem de Home"
         />
+        
       </section>
       <Footer />
     </>
