@@ -8,7 +8,7 @@ function Home() {
         <p>
           Olá, sou <br />
           <span>Gabriel Souza</span> <br />
-          Dev Full Stack
+          Desenvolvedor Full Stack
         </p>
         <Link className={`${styles.btn} ${styles.btn_red}`} to="/about">
           Saiba mais sobre mim
